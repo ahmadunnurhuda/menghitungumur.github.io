@@ -1,0 +1,49 @@
+body {
+    background-color: #A3D8FF;
+  }
+
+   .contener {
+      display: flex ;
+      flex-direction: column;
+      gap: 10px;
+      border: 1px solid blanchedalmond;
+      margin: 50px auto;
+      padding: 50px;
+      width: 50%;
+      background-color: #9EDDFF;
+      margin-top: 40 px;
+      border-radius: 25px;
+      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+
+  
+
+    #birthday{
+      padding: 16px;
+      font-size: 20px;
+      border-radius: 20px;
+     }
+
+    #check-button {
+      padding: 12px;
+      border-radius: 25px;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      font-size: 30px;
+    }
+    #check-button:hover{
+      background-color: #F11A7B;
+      color: white;
+    }
+    label{
+      font-size: 20px;
+    }
+
+    .result {
+      font-size: 18px;
+      color:blue;
+      margin-top: 18px;
+    }
